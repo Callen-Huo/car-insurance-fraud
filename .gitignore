@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data — carclaims.csv is included in this repository for reproducibility
+
+# Outputs
+*.log
+output/
+
+# OS / editor artifacts
+.DS_Store
+.Rhistory
+.RData
