@@ -133,7 +133,7 @@ Apparent differences by age group disappear after controlling for other factors 
 ## Project Structure
 
 ```
-car-insurance-fraud/
+car-insurance-fraud-en/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
@@ -173,8 +173,7 @@ These two tables drive variable selection and serve as the raw appendix data for
 # 1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Prepare the data
-#    Place carclaims.csv in data/ (see data/README.md)
+# 2. Data is included in data/carclaims.csv — no download required
 
 # 3. Run the analysis (both scripts depend on insurance_claims_load.py in the same folder)
 cd python
@@ -209,7 +208,7 @@ This project uses the public *Vehicle Insurance Fraud Detection* dataset (15,420
 
 - Data file obtained from:
   [insurance-claims-analysis / data / carclaims.csv](https://github.com/Saharaxi/insurance-claims-analysis/blob/main/data/carclaims.csv)
-- Original dataset: *Vehicle Insurance Fraud Detection* (add the original publishing page here if available)
+- Original dataset: *Vehicle Insurance Fraud Detection*
 - Data licence: not declared by the source repository. The data file is redistributed with this repository for learning and research purposes only
 
 ### Analysis framework
