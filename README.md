@@ -133,7 +133,7 @@ Apparent differences by age group disappear after controlling for other factors 
 ## Project Structure
 
 ```
-car-insurance-fraud-en/
+car-insurance-fraud/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
